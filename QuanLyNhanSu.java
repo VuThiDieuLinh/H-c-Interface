@@ -1,3 +1,4 @@
+//Bài 2
 interface EmailSender {
     void sendEmail();
 }
@@ -55,4 +56,5 @@ class SalesEmployee implements EmailSender, Salesperson {
     public  void sell() {
         System.out.println(ten + " (SalesEmployee) đang bán hàng...");
     }
+
 }
