@@ -1,4 +1,4 @@
-//Bài 2
+//Bài2
 interface EmailSender {
     void sendEmail();
 }
@@ -58,3 +58,4 @@ class SalesEmployee implements EmailSender, Salesperson {
     }
 
 }
+
