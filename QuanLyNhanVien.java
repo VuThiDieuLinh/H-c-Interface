@@ -56,10 +56,11 @@ class TechnicalEmployee extends Employee  {
 public class QuanLyNhanVien {
     public static void main(String[] args) {
         Employee nvien1 = new OfficeEmployee("Vu Thi Dieu Linh", 20, 30);
-        Employee nvien2 = new TechnicalEmployee("Dao Minh Quan", 20, 24, 105);
+        Employee nvien2 = new TechnicalEmployee("Le Thi Cam Ly", 20, 24, 105);
 
         nvien1.hienThiThongTin();
         nvien2.hienThiThongTin();
     }
 
 }
+
